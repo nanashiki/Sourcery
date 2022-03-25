@@ -54,6 +54,7 @@ let package = Package(
                 "Yams",
                 "StencilSwiftKit",
                 "SwiftSyntax",
+                .product(name: "SwiftSyntaxParser", package: "SwiftSyntax"),
                 "XcodeProj",
                 "TryCatch"
             ],
